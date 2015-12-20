@@ -47,24 +47,20 @@ feed: /atom.xml
 #菜单配置
 nav:
   - text: 首页
-    url: /index.html
+    url: http://awthink.net/
     icon: icon-home
     class: home
-  - text: 文章归档
-    url: /archives.html
-    icon: icon-reorder
+  - text: Write
+    url: http://write.awthink.net
+    icon: icon-book
+    class: none
+  - text: Think
+    url: http://think.awthink.net
+    icon: icon-beaker
     class: none
   - text: 阅读书单
     url: /book.html
     icon: icon-book
-    class: none
-  - text: Demo
-    url: http://awthink.org/
-    icon: icon-beaker
-    class: none
-  - text: 关于我
-    url: /about.html
-    icon: icon-info-sign
     class: none
 
 page:
