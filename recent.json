@@ -6,7 +6,7 @@ layout: nil
     {
         "title":"{{post.title}}",
         "url":"http://read.awthink.net{{post.url}}",
-        "date":"{{post.date|date_to_string}}"
+        "date":"{{post.date|date_to_string}}",
         "description":"{{ post.description }}"   
     }{% if forloop.last == false %},{% endif %}
 {% endfor %}
